@@ -1,8 +1,15 @@
 [package]
-name = "csv-escape-text-qualifiers"
+name = "csv_escape_text_qualifiers"
 version = "1.0.0"
 authors = ["Andrew Krueger <krueger.andrew@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-regex = "1.4.1"
+bstr = "0.2.14"
+
+[dev-dependencies]
+criterion = "0.3.3"
+
+[[bench]]
+name = "benchmark"
+harness = false
