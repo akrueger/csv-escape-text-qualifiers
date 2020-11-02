@@ -6,10 +6,3 @@ edition = "2018"
 
 [dependencies]
 bstr = "0.2.14"
-
-[dev-dependencies]
-criterion = "0.3.3"
-
-[[bench]]
-name = "benchmark"
-harness = false
